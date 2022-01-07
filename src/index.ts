@@ -15,6 +15,7 @@ class InheritedConfig {
 	};
 
 	require(path: string): any {
+		// eslint-disable-next-line global-require
 		return require(path);
 	}
 
