@@ -1,0 +1,46 @@
+{
+  "name": "@codesupport/inherited-config",
+  "version": "1.0.0",
+  "description": "Project configuration system with inheritance support for multiple environments.",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "rm -rf ./build && tsc",
+    "test": "ts-mocha test/*Test.ts --exit",
+    "test:debug": "ts-mocha test/*Test.ts --timeout 999999999 --exit",
+    "lint": "eslint src test --ext .js,.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesupport/inherited-config.git"
+  },
+  "keywords": [
+    "config",
+    "inherited",
+    "environments",
+    "json"
+  ],
+  "author": "The CodeSupport Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesupport/inherited-config/issues"
+  },
+  "homepage": "https://github.com/codesupport/inherited-config#readme",
+  "engines": {
+    "node": ">=16.6.0",
+    "npm": ">=7.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.0.0",
+    "@types/sinon": "^10.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "chai": "^4.3.4",
+    "eslint": "^8.6.0",
+    "eslint-config-codesupport": "^1.0.2",
+    "sinon": "^12.0.1",
+    "ts-mocha": "^8.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
