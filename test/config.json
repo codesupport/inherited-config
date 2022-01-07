@@ -1,0 +1,8 @@
+{
+	"__EXPLAINED__": "This is a test config file (production).",
+	"timeout": 300,
+	"whitelisted_extensions": [
+		"png",
+		"jpeg"
+	]
+}

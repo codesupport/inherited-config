@@ -1,0 +1,4 @@
+{
+	"__EXPLAINED__": "This is a test config file (NODE_ENV=dev).",
+	"timeout": 3600
+}
